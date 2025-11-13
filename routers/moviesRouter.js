@@ -1,20 +1,13 @@
 const express = require('express')
 const router = express.Router()
-const connection = require('../data/connection')
+
+const moviesController = require('../controllers/moviesController')
 
 //index
-router.get('/', (req, res) => {
+router.get('/', moviesController.index)
 
-    const sql = 'SELECT * FROM movies'
-
-    connection.query(sql, (err, result) => {
-        if (err) return res.status(500).json({ error: 'database query failed' })
-        res.json(result)
-
-    })
-
-})
-
+//show
+router.get('/:id', moviesController.show)
 
 
 

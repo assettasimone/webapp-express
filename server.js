@@ -3,6 +3,8 @@ const app = express()
 const port = 3000
 const cors = require('cors')
 const moviesRouter = require('./routers/moviesRouter')
+const serverError = require('./middleware/serverError')
+const notFound = require('./middleware/notFound')
 
 app.use(cors());
 
