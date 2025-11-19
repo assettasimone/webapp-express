@@ -22,7 +22,7 @@ app.use('/api/movies', moviesRouter)
 
 
 app.listen(port, () => {
-    console.log(`app listening at port ${port}`)
+    console.log(`app listening at port http://localhost:${port}`)
 })
 
 

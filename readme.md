@@ -8,9 +8,9 @@
 
 ## Bonus
 
-- [] Inserire le immagini nel progetto express
+- [x] Inserire le immagini nel progetto express
 - [x] Inserire i dati di connessione al database come variabili d’ambiente
 - [x] Inserire le vostre API in controller
 - [x] Inserire le vostre rotte in un router
-- [] Inserire un middleware per le rotte inesistenti
-- [] Inserire un middleware per la gestione errori
+- [x] Inserire un middleware per le rotte inesistenti
+- [x] Inserire un middleware per la gestione errori
